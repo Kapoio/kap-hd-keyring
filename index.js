@@ -1,10 +1,10 @@
-const hdkey = require('ethereumjs-wallet/hdkey')
-const SimpleKeyring = require('eth-simple-keyring')
+const hdkey = require('kapoiojs-wallet/hdkey')
+const SimpleKeyring = require('kap-simple-keyring')
 const bip39 = require('bip39')
-const sigUtil = require('eth-sig-util')
+const sigUtil = require('kap-sig-util')
 
 // Options:
-const hdPathString = `m/44'/60'/0'/0`
+const hdPathString = `m/44'/8192'/0'/0`
 const type = 'HD Key Tree'
 
 class HdKeyring extends SimpleKeyring {
