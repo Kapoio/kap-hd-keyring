@@ -1,5 +1,5 @@
 {
-  "name": "eth-hd-keyring",
+  "name": "kap-hd-keyring",
   "version": "3.5.0",
   "description": "A simple standard interface for a seed phrase generated set of Ethereum accounts.",
   "main": "index.js",
@@ -10,24 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MetaMask/eth-hd-keyring.git"
+    "url": "git+ssh://git@github.com/Kapoio/kap-hd-keyring.git"
   },
   "keywords": [
-    "ethereum",
+    "kapoio",
     "keyring"
   ],
   "author": "Dan Finlay",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MetaMask/eth-hd-keyring/issues"
+    "url": "https://github.com/Kapoio/kap-hd-keyring/issues"
   },
-  "homepage": "https://github.com/MetaMask/eth-hd-keyring#readme",
+  "homepage": "https://github.com/Kapoio/kap-hd-keyring#readme",
   "dependencies": {
     "bip39": "^2.2.0",
-    "eth-sig-util": "^2.4.4",
-    "eth-simple-keyring": "^3.5.0",
-    "ethereumjs-util": "^5.1.1",
-    "ethereumjs-wallet": "^0.6.0"
+    "kap-sig-util": "git+https://github.com/Kapoio/kap-sig-util.git#master",
+    "kap-simple-keyring": "git+https://github.com/Kapoio/kap-simple-keyring.git#master",
+    "kapoiojs-util": "git+https://github.com/Kapoio/kapoiojs-util.git#master",
+    "kapoiojs-wallet": "git+https://github.com/Kapoio/kapoiojs-wallet.git#master",
   },
   "devDependencies": {
     "@metamask/eslint-config": "^3.0.0",
